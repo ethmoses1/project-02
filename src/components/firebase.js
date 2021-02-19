@@ -1,13 +1,13 @@
 import firebase from 'firebase'
 
 firebase.initializeApp ({
-    apiKey: "AIzaSyDY62ii4ZDXRjc3rpdlEWqv09tWrYMuhR4",
-    authDomain: "slackme-app.firebaseapp.com",
-    projectId: "slackme-app",
-    storageBucket: "slackme-app.appspot.com",
-    messagingSenderId: "957368632074",
-    appId: "1:957368632074:web:a99b436f150bac6e6130f3",
-    measurementId: "G-K4TYKTCWQG"
+  apiKey: "AIzaSyAlMC-Zi3tVth1u9jfPYjJHiKaW0gLap4g",
+  authDomain: "project-02-4262c.firebaseapp.com",
+  projectId: "project-02-4262c",
+  storageBucket: "project-02-4262c.appspot.com",
+  messagingSenderId: "368304647730",
+  appId: "1:368304647730:web:43f2f6c6646ed4af85162b",
+  measurementId: "G-G17HJFZDTC"
 
 })
 
