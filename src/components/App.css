@@ -1,0 +1,38 @@
+.App {
+  text-align: left;
+}
+
+
+
+
+body {
+  background-color: white;
+}
+
+.home__container {
+  display:flex;
+  /* border: 5px solid gainsboro; */
+}
+
+.channels__container{
+  background: #00b386;
+  flex:0.2;
+  height: 610px;
+
+}
+
+.messages__container{
+  background-color: white;
+  display:inline-block;
+  flex:0.8;
+
+}
+
+
+
+
+.msgP {
+  border-radius: 50%;
+  height:20px;
+  width:20px;
+}

@@ -1,0 +1,68 @@
+.channel__indicator {
+  text-align: center;
+  background-color: #3f0f40;
+  color:white;
+  font-weight: bolder;
+  font-size: 20px;
+  height:40px;
+  padding-top: 8px;
+}
+.message__input{
+  /* border: 1px solid red; */
+}
+.message__field{
+  /* border: 1px solid red; */
+}
+
+.headers{
+  margin: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.header__search {
+	flex: 0.2;
+	background-color: var(--slack-color-semi-light);
+	text-align: center;
+	display: flex;
+	padding: 0 50px;
+	color: gray;
+	border: 1px gray solid;
+	border-radius: 6px;
+}
+
+.header__search > input {
+	background-color: blue;
+	border: none;
+	text-align: center;
+	min-width: 35wv;
+}
+.SearchIcon{
+  padding: 12px;
+}
+.header_search_input{
+  padding: 6px;
+  background-color: transparent;
+}
+
+.titleImage {
+
+}
+.messages__container{
+  /* border: 5px solid gainsboro; */
+
+}
+
+.working-channel{
+  /* border: 5px solid pink; */
+  height: 90vh;
+  min-width: 200px;
+  background-color: #4A154B
+}
+.ExpandMoreIcon{
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}

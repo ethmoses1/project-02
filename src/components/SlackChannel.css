@@ -1,0 +1,51 @@
+.channel-box{
+  /* border: 5px solid black; */
+}
+.channels {
+  background-color: #3f0f40;
+  display:flex;
+  flex: 0.3;
+  text-align: left;
+  /* border: 1px solid red; */
+
+}
+
+.channels:hover{
+  opacity: 0.9;
+  background-color: #340e36;
+}
+
+.sidebarOption__channel {
+  padding: 10px 0;
+}
+
+.sidebarOption__hash {
+  padding: 10px;
+
+}
+
+.sidebarOption > h3 {
+  font-weight: 500;
+}
+
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  padding-left: 2px;
+  cursor: pointer;
+}
+
+.sidebarOption:hover {
+  opacity: 0.9;
+  background-color: yellow;
+}
+
+.sidebar {
+  flex: 0.3;
+  color: white;
+  background-color: var(--slack-color);
+  border-top: 1px solid #49274b;
+  max-width: 260px;
+  font-weight: bold;
+}
