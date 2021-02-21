@@ -29,6 +29,7 @@ function SlackHome () {
   const channelsRef = firestore.collection('channels');
   const query = channelsRef.orderBy('createdAt').limit(25);
   const[channels] = useCollectionData(query);
+  console.log(channels)
   const [formValue, setFormValue] = useState('')
 
   const createChannel = async(e) => {                   ////create channels
@@ -130,14 +131,11 @@ const updateMessages = () => {
 const getChannel = function(e){
   const topics = []
     e.preventDefault();
-   channels.map((channel) =>
-   topics.push(channel.topic)
-  );
+   channelNow.map((channel) =>
+   console.log("i think this is working:",channel ,topics.push(channel.topic))
 
-  topics.map((topic)=>
-  (topic === this.state.searchFrom) ? console.log(topic) : console.log("no match")
-);
-
+).then(topics.map((topic)=>
+(topic === this.state.searchFrom) ? console.log(topic) : console.log("no match")) )
 }
 
 function handleSubmit(e) {
