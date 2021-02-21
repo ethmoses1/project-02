@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Project-2-SlackMe [Try it on web]().
+  SlackMe is the responsive web communication platform. It provides Users with wide range of flexibility such as but not limited to messaging, creating teams, channels, direct messaging. Real time archive and update of messages, channels and users.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Process Flow Diagram [SlackMe](https://lucid.app/lucidchart/25341b74-478b-4863-bbde-a20bccb764a7/view?page=0_0#?folder_id=home&browser=icon).
 
-## Available Scripts
+## High Level Functional Requirement
+#### Sign-In
+* User has an ability to login with valid email address or valid gmail account.
+* System should validate the account.
+* On successful validation User should be navigated to the home page.
+* On unsuccessful validation User should be prompted with error message.
 
-In the project directory, you can run:
+#### Post Validation
+  * User has an ability to create/delete direct message/s.
+  * User has an ability to create/delete channels message/s.
 
-### `npm start`
+#### Database (i.e. Firebase)
+  * System updates the database in real time.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Sign-0ut
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* User has an ability to sign-out at anytime of the process.
 
-### `npm test`
+## Technical dependency
+* React
+* Firebase
+* CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Future Enhancements
+* Like button
+* Emojis
 
-### `npm run build`
+## Retro
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  ### What went well
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  * Requirements were laid out perfectly.
+  * Understanding of requirement and white board session was awesome.
+  * Mapping out the steps was done on day one to avoid distraction/s.
+  * Collaboration within the team was perfect.
+  * Well articulated README file.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### What did not go well
 
-### `npm run eject`
+  * Lack of confidence in the beginning.
+  * Impatient when code does not go right.
+  * Fiddling with different options in google and Youtube.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Plans for upcoming project
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  * Stop fiddling around, need to stick with what was signed off.
+  * Regular interaction with TA's.
+  * Never say no attitude.
+  * No room for procrastination.
+  * Use JSFiddle to tidy code.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Takeaways from the Project
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Create [Create React App] (https://github.com/facebook/create-react-app).
+* Start (i.e. npm start in console)[http://localhost:3000] (http://localhost:3000)
+* Integration of firebase (i.e. npm install firebase firebase/icons in console) [install firebase] (https://www.npmjs.com/package/firebase)
+* Test (i.e. npm test in console) [running tests] (https://facebook.github.io/create-react-app/docs/running-tests).
+* Deploy (i.e. npm run build in console) [deployment] (https://facebook.github.io/create-react-app/docs/deployment)
