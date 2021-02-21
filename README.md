@@ -1,4 +1,4 @@
-# Project-2-SlackMe [Try it on web]().
+# Project-2-SlackMe [https://project-02-4262c.web.app/]().
   SlackMe is the responsive web communication platform. It provides Users with wide range of flexibility such as but not limited to messaging, creating teams, channels, direct messaging. Real time archive and update of messages, channels and users.
 
 ## Process Flow Diagram [SlackMe](https://lucid.app/lucidchart/25341b74-478b-4863-bbde-a20bccb764a7/view?page=0_0#?folder_id=home&browser=icon).
